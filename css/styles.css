@@ -1,0 +1,80 @@
+body{
+  margin: 0;
+  font-family: DM Sans;
+  text-align: center;
+}
+
+h2{
+  color: #2078FC;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+p{
+  font-family: DM Sans;
+  color: #67707E;
+}
+
+.main-heading{
+  font-family: Futura;
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.1;
+}
+
+.colored-section{
+  background: transparent linear-gradient(180deg, #D5E6FF 0%, #FFFFFF 100%) 0 0 no-repeat padding-box;
+  color: #000;
+}
+
+
+.navbar{
+  padding: 0 0 6rem;
+}
+
+.navbar-brand{
+  font-family: Futura;
+  font-size: 2rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: DM Sans, Regular;
+}
+
+
+.top-img{
+  position: absolute;
+  top:0;
+  left: 150px;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+  line-height: 1.4;
+}
+
+.title{
+  padding-top: 7%;
+}
+
+.title-image{
+  height: 80%;
+}
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+
+@media (max-width:992px) {
+
+   #title {
+     text-align: center;
+   }
+ }
