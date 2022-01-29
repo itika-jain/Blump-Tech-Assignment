@@ -1,0 +1,165 @@
+body{
+  margin: 0;
+  opacity: 1;
+  background-color: #fff;
+  font-family: DM Sans;
+  text-align: center;
+}
+
+h2{
+  color: #2078FC;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+p{
+  font-family: DM Sans;
+  color: #67707E;
+  font-size: 1rem;
+}
+
+.main-heading{
+  font-family: "Futura Bold";
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.2;
+}
+
+.colored-section{
+  background: transparent linear-gradient(180deg, #D5E6FF 0%, #FFFFFF 100%) 0 0 no-repeat padding-box;
+  color: #000;
+}
+
+
+.navbar{
+  padding: 0 0 6rem;
+}
+
+.navbar-brand{
+  font-family: Futura;
+  font-size: 2rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: DM Sans, Regular;
+}
+
+
+.top-img{
+  position: absolute;
+  top:0;
+  left: 150px;
+}
+
+.container-fluid {
+  padding: 3% 15% 0;
+  text-align: left;
+  line-height: 1.4;
+}
+
+.title{
+  padding-top: 7%;
+}
+
+.title-image{
+  height: 80%;
+}
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+#cta{
+  position: relative;
+}
+
+.transparent-section{
+  padding: 4.5%;
+  background: transparent url('images/Mask Group 3.png') 0 0 no-repeat padding-box;
+  opacity: 1;
+  text-align: left;
+  /* line-height: 1.4; */
+}
+
+
+.cta-image{
+  height: 90%;
+}
+
+.cta-heading{
+  font-family: "DM Sans Bold";
+  font-weight: bolder;
+  font-size: 4.5rem;
+  padding-top: 10%;
+}
+
+.para-link{
+  text-decoration: none;
+}
+
+
+.cta-button{
+  margin-top: 3%;
+}
+
+#features{
+  padding-bottom: 7%;
+}
+
+.feature-section{
+  position: relative;
+}
+
+.left-test{
+  position: absolute;
+  bottom:50px;
+  left: 30px;
+  width: 20%;
+}
+
+.right-test{
+  position: absolute;
+  right: 10px;
+  bottom: 150px;
+  width: 20%;
+}
+
+.feature-content{
+  width: 60%;
+  margin-left: 4%;
+}
+
+.feature-heading{
+  font-family: "Futura Bold";
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+.feature-para{
+  font-family: "DM Sans Regular";
+}
+
+.foot-heading{
+  font-size: 1.2rem;
+}
+
+.foot-para{
+  font-size: 0.8rem;
+}
+
+.copy{
+  font-size: 0.72rem;
+}
+
+@media (max-width:992px) {
+
+   #title {
+     text-align: center;
+   }
+ }
