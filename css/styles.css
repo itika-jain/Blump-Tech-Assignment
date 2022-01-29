@@ -145,6 +145,18 @@ p{
   font-family: "DM Sans Regular";
 }
 
+.foot-heading{
+  font-size: 1.2rem;
+}
+
+.foot-para{
+  font-size: 0.8rem;
+}
+
+.copy{
+  font-size: 0.72rem;
+}
+
 @media (max-width:992px) {
 
    #title {
