@@ -3,7 +3,7 @@ body{
   opacity: 1;
   background-color: #fff;
   font-family: DM Sans;
-  text-align: center;
+  /* text-align: center; */
 }
 
 h2{
@@ -82,8 +82,6 @@ p{
   padding: 4.5%;
   background: transparent url('images/Mask Group 3.png') 0 0 no-repeat padding-box;
   opacity: 1;
-  text-align: left;
-  /* line-height: 1.4; */
 }
 
 
@@ -158,8 +156,39 @@ p{
 }
 
 @media (max-width:992px) {
+  .navbar{
+    display: none;
+  }
 
-   #title {
-     text-align: center;
-   }
+  .title{
+    margin-bottom: 8%;
+  }
+
+  .container-fluid {
+    text-align: center;
+  }
+
+  #features{
+    text-align: center;
+  }
+
+  .feature-content{
+    width: 100%;
+    padding: 10%;
+    margin: auto;
+  }
+
+  .right-test{
+    position: relative;
+    text-align: center;
+    padding-top: 12%;
+    width: 50%;
+  }
+
+  .left-test{
+    position: relative;
+    text-align: center;
+    padding-top: 5%;
+    width: 50%;
+  }
  }
