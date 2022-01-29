@@ -1,5 +1,7 @@
 body{
   margin: 0;
+  opacity: 1;
+  background-color: #fff;
   font-family: DM Sans;
   text-align: center;
 }
@@ -53,8 +55,8 @@ p{
   left: 150px;
 }
 
-#title .container-fluid {
-  padding: 3% 15% 7%;
+.container-fluid {
+  padding: 3% 15% 0;
   text-align: left;
   line-height: 1.4;
 }
@@ -70,6 +72,43 @@ p{
 .download-button{
   margin: 5% 3% 5% 0;
 }
+
+#cta{
+  position: relative;
+}
+
+.transparent-section{
+  padding: 4.5%;
+  background: transparent url('images/Mask Group 3.png') 0 0 no-repeat padding-box;
+  opacity: 1;
+  text-align: left;
+  /* line-height: 1.4; */
+}
+
+
+.cta-image{
+  height: 90%;
+}
+
+.cta-heading{
+  font-family: "DM Sans Bold";
+  font-weight: bolder;
+  font-size: 4.5rem;
+  padding-top: 10%;
+}
+
+.para-link{
+  text-decoration: none;
+}
+
+p{
+  font-size: 1rem;
+}
+
+.cta-button{
+  margin-top: 3%;
+}
+
 
 
 @media (max-width:992px) {
